@@ -14,7 +14,7 @@ class TagTranslator:
 
     RETURN_TYPES = ("STRING",)
     FUNCTION = 'process'
-    CATEGORY = 'DanbooruTagTranslator'
+    CATEGORY = 'aleiluo tools'
     
     def process(self, text):
         script_dir = os.path.dirname(os.path.abspath(__file__))
